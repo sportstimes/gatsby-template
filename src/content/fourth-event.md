@@ -1,6 +1,7 @@
 ---
 title: Fourth Event
-date: 2019-09-18
+date: 2019-09-18T15:00Z
+location: Edinburgh
 path: /fourth-event
 ---
 
