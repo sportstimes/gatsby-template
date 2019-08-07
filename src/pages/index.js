@@ -18,7 +18,17 @@ const IndexPage = ({
   return (
     <Layout>
       <SEO title="Home" />
-      <div>{Posts}</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Summary</th>
+            <th>When</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Posts}
+        </tbody>
+      </table>
     </Layout>
   )
 }
@@ -32,7 +42,7 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "DD MMM YY HH:mm")
+            date(formatString: "DD MMM 'YY HH:mm")
             path
             title
           }
