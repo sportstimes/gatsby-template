@@ -9,7 +9,7 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <SEO title="Event" />
+      <SEO title={frontmatter.title} />
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
@@ -28,7 +28,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "DD MMMM YYYY HH:mm")
+        date(formatString: "DD MMMM YYYY HH:mm Z")
         path
         title
         locationName
