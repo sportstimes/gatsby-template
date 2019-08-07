@@ -6,7 +6,6 @@ const PostLink = ({ post }) => (
     <Link to={post.frontmatter.path}>
       <span className="title">{post.frontmatter.title}</span>
       <span className="date">{post.frontmatter.date}</span>
-      <span className="location">{post.frontmatter.location}</span>
     </Link>
   </div>
 )
