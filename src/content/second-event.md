@@ -1,7 +1,7 @@
 ---
 title: Second Event
 date: 2019-09-10T19:00Z
-location: London
+locationName: London
 path: /second-event
 ---
 

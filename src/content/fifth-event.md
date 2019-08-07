@@ -1,7 +1,7 @@
 ---
 title: Fifth Event
 date: 2019-10-03T11:00Z
-location: TBC
+locationName: TBC
 path: /fifth-event
 
 ---

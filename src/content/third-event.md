@@ -1,7 +1,7 @@
 ---
 title: Third Event
 date: 2019-09-15T14:00Z
-location: Madrid
+locationName: Madrid
 path: /third-event
 ---
 
