@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import PostLink from "../components/post-link"
+import EventRow from "../components/event-row"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,9 +11,9 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const Posts = edges
+  const Events = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+    .map(edge => <EventRow key={edge.node.id} post={edge.node} />)
 
   return (
     <Layout>
@@ -26,7 +26,7 @@ const IndexPage = ({
           </tr>
         </thead>
         <tbody>
-          {Posts}
+          {Events}
         </tbody>
       </table>
     </Layout>

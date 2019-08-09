@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const PostLink = ({ post }) => (
+const EventRow = ({ post }) => (
   <tr>
       <td className="title">
         <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -10,4 +10,4 @@ const PostLink = ({ post }) => (
   </tr>
 )
 
-export default PostLink
+export default EventRow
