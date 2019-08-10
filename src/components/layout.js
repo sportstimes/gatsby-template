@@ -35,6 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <Link to="/feed.xml" className="rss">RSS feed</Link>
         <footer>
           © {new Date().getFullYear()}, Built with ♥️ using
           {` `}
