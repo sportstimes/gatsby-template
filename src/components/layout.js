@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -36,7 +35,6 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <Link to="/feed.xml" className="rss">RSS feed</Link>
         <footer>
           © {new Date().getFullYear()}, Built with ♥️ using
           {` `}
