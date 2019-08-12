@@ -17,7 +17,7 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <SEO title="All events" />
+      <SEO title="All Events" />
       <table>
         <thead>
           <tr>
