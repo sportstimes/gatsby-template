@@ -4,7 +4,7 @@ import EventRow from "../components/event-row"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import { Link } from "gatsby"
 
 const IndexPage = ({
   data: {
@@ -29,7 +29,8 @@ const IndexPage = ({
           {Events}
         </tbody>
       </table>
-    </Layout>
+      <Link to="/feed.xml" className="rss">RSS feed of events</Link>
+     </Layout>
   )
 }
 
