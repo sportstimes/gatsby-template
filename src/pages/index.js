@@ -29,7 +29,13 @@ const IndexPage = ({
           {Events}
         </tbody>
       </table>
-      <Link to="/feed.xml" className="rss">RSS feed of events</Link>
+      <p>
+        Export as 
+        {` `}
+        <Link to="/feed.xml" className="rss">RSS feed</Link>
+        {` and `}
+        <Link to="/events.csv" className="csv">CSV file</Link>
+      </p>
      </Layout>
   )
 }
