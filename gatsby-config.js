@@ -95,7 +95,58 @@ module.exports = {
         ],
       },
     },
-
+    {
+      resolve: "gatsby-plugin-csv-feed",
+      options: {
+        // Query to pass to all feed serializers (optional)
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+          }
+        `,
+        // Feeds
+        feeds: [
+          {
+            query: `
+              {
+                allMarkdownRemark {
+                  edges {
+                    node {
+                      frontmatter {
+                        title
+                        date
+                        locationName
+                      }
+                      fields {
+                        slug
+                      }
+                      excerpt
+                    }
+                  }
+                }
+              }
+            `,
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                const node = Object.assign({}, edge.node.frontmatter, edge.node.fields);
+                return {
+                  "Title": node.title,
+                  "Date": node.date,
+                  "Location": node.locationName,
+                  "Description": edge.node.excerpt,
+                  "Details URL": `${site.siteMetadata.siteUrl}${node.slug}`,
+                };
+              });
+            },
+            output: "/events.csv",
+          },
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
