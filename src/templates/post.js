@@ -12,7 +12,7 @@ export default function Template({ data }) {
       <SEO title={frontmatter.title} />
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+        <h2>{frontmatter.date} (until {(frontmatter.endDate || "TBC")})</h2>
         <h3>{frontmatter.locationName}</h3>
         <div
           className="blog-post-content"
@@ -29,6 +29,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "dddd DD MMMM YYYY HH:mm Z")
+        endDate(formatString: "HH:mm")
         path
         title
         locationName
