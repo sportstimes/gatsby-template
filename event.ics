@@ -5,10 +5,10 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:caf8fcbc-aaaf-4408-8ec2-68ceb141b958
+UID:9dbbeea1-9ff8-4275-8160-5749cb168f70
 SUMMARY:First ICS event
-DTSTAMP:20190820T170800Z
-DTSTART:20190820T170800Z
+DTSTAMP:20190820T171200Z
+DTSTART:20190710T180000Z
 DESCRIPTION:Getting ICS node package integrated with this repo
 URL:https://kickofftimestemplate.netlify.com/
 LOCATION:Virgin Train, West Coast Mainline
@@ -18,9 +18,9 @@ ORGANIZER;CN=Si Jobling:mailto:simon.jobling@gmail.com
 DURATION:PT30M
 END:VEVENT
 BEGIN:VEVENT
-UID:109fc3b8-beca-4595-aff0-0989f9a8b36b
+UID:7d95d36f-df11-45bb-9c10-a3d799568764
 SUMMARY:Second ICS event
-DTSTAMP:20190820T170800Z
+DTSTAMP:20190820T171200Z
 DTSTART:20190820T072000Z
 DESCRIPTION:Creating a second event
 URL:https://kickofftimestemplate.netlify.com/

@@ -3,7 +3,7 @@ const ics = require('ics')
 
 let moment = require("moment")
 
-let start = moment().format('YYYY-M-D-H-m').split("-")
+let start = moment('2019-07-10T18:00Z').format('YYYY-M-D-H-m').split("-")
 
 const events = [
   {
