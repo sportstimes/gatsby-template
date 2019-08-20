@@ -5,7 +5,7 @@ let moment = require("moment")
 
 let start = moment('2019-07-10T18:00Z').format('YYYY-M-D-H-m').split("-")
 
-const events = [
+let events = [
   {
     start: start,
     duration: { hours: 0, minutes: 30 },
