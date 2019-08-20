@@ -3,9 +3,11 @@ const ics = require('ics')
 
 let moment = require("moment")
 
+let start = moment().format('YYYY-M-D-H-m').split("-")
+
 const events = [
   {
-    start: [2019, 8, 20, 7, 50],
+    start: start,
     duration: { hours: 0, minutes: 30 },
     title: 'First ICS event',
     description: 'Getting ICS node package integrated with this repo',
