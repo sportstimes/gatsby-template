@@ -94,6 +94,6 @@ ics.createEvents(events, (error, value) => {
   }
  
   console.log(value)  
-  writeFileSync(`${__dirname}/events.ics`, value)
+  writeFileSync(`${__dirname}/public/events.ics`, value)
 
 })
