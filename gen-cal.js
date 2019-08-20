@@ -1,24 +1,21 @@
 const { writeFileSync } = require('fs')
 const ics = require('ics')
- 
-const event = {
-  start: [2018, 5, 30, 6, 30],
-  duration: { hours: 6, minutes: 30 },
-  title: 'Bolder Boulder',
-  description: 'Annual 10-kilometer run in Boulder, Colorado',
-  location: 'Folsom Field, University of Colorado (finish line)',
-  url: 'http://www.bolderboulder.com/',
-  geo: { lat: 40.0095, lon: 105.2669 },
-  categories: ['10k races', 'Memorial Day Weekend', 'Boulder CO'],
+
+let moment = require("moment")
+
+const events = {
+  start: [2019, 8, 20, 7, 50],
+  duration: { hours: 0, minutes: 30 },
+  title: 'First ICS event',
+  description: 'Getting ICS node package integrated with this repo',
+  location: 'Virgin Train, West Coast Mainline',
+  url: 'https://kickofftimestemplate.netlify.com/',
+  categories: ['Code', 'Side Projects', 'Kick Off'],
   status: 'CONFIRMED',
-  organizer: { name: 'Admin', email: 'Race@BolderBOULDER.com' },
-  attendees: [
-    { name: 'Adam Gibbons', email: 'adam@example.com', rsvp: true, partstat: 'ACCEPTED', role: 'REQ-PARTICIPANT' },
-    { name: 'Brittany Seaton', email: 'brittany@example2.org', dir: 'https://linkedin.com/in/brittanyseaton', role: 'OPT-PARTICIPANT' }
-  ]
+  organizer: { name: 'Si Jobling', email: 'simon.jobling@gmail.com' },
 }
  
-ics.createEvent(event, (error, value) => {
+ics.createEvent(events, (error, value) => {
   if (error) {
     console.log(error)
     return
