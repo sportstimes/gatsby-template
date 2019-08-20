@@ -14,7 +14,18 @@ const events = [
     categories: ['Code', 'Side Projects', 'Kick Off'],
     status: 'CONFIRMED',
     organizer: { name: 'Si Jobling', email: 'simon.jobling@gmail.com' },
-  }
+  },
+  {
+    start: [2019, 8, 20, 8, 20],
+    duration: { hours: 0, minutes: 30 },
+    title: 'Second ICS event',
+    description: 'Creating a second event',
+    location: 'London Euston Train Station',
+    url: 'https://kickofftimestemplate.netlify.com/',
+    categories: ['Code', 'Side Projects', 'Kick Off'],
+    status: 'CONFIRMED',
+    organizer: { name: 'Si Jobling', email: 'simon.jobling@gmail.com' },
+  },
 ]
  
 ics.createEvents(events, (error, value) => {
