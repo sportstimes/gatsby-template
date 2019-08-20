@@ -1,0 +1,80 @@
+{
+  "_from": "gatsby-plugin-csv-feed",
+  "_id": "gatsby-plugin-csv-feed@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-heTxiE6RXw9D76k91EMbUbaMvprXUvN2tWBUz1bo+LAS6m1Zd1HL83vDXG4eiyETm8wxhg74pAKCXXHFgFiqUA==",
+  "_location": "/gatsby-plugin-csv-feed",
+  "_phantomChildren": {
+    "graceful-fs": "4.2.0",
+    "jsonfile": "4.0.0",
+    "universalify": "0.1.2"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gatsby-plugin-csv-feed",
+    "name": "gatsby-plugin-csv-feed",
+    "escapedName": "gatsby-plugin-csv-feed",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-plugin-csv-feed/-/gatsby-plugin-csv-feed-1.1.2.tgz",
+  "_shasum": "f64b72d7c8b512ae4f6f681a41d20bc822ec99b5",
+  "_spec": "gatsby-plugin-csv-feed",
+  "_where": "/Users/simonj/Code/Personal/gatsby-template",
+  "author": {
+    "name": "Austin Gordon",
+    "email": "gordon.austin2@gmail.com",
+    "url": "https://www.austinleegordon.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hutsoninc/gatsby-plugin-csv-feed/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "@hapi/joi": "^15.0.3",
+    "fs-extra": "^8.0.1",
+    "json2csv": "^4.5.1"
+  },
+  "deprecated": false,
+  "description": "Gatsby plugin for creating CSV data feeds",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "babel-preset-gatsby-package": "^0.1.4",
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6"
+  },
+  "homepage": "https://github.com/hutsoninc/gatsby-plugin-csv-feed#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "csv",
+    "tsv",
+    "data",
+    "feed",
+    "google",
+    "ads",
+    "adwords"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gatsby-plugin-csv-feed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hutsoninc/gatsby-plugin-csv-feed.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production && babel src --out-dir .",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "version": "1.1.2"
+}
