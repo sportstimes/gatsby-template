@@ -6,7 +6,7 @@ const EventRow = ({ post }) => (
       <td className="summary">
         <Link className="url" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
       </td>
-      <td className="dtstart dtstamp" title="">{post.frontmatter.date}</td>
+      <td className="dtstart dtstamp" title="">🗓 {post.frontmatter.date}</td>
   </tr>
 )
 
