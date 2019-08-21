@@ -32,6 +32,8 @@ const IndexPage = ({
       <p>
         Export as 
         {` `}
+        <Link to="/events.ics" className="ics">ICS</Link>,
+        {` `}
         <Link to="/feed.xml" className="rss">RSS feed</Link>
         {` and `}
         <Link to="/events.csv" className="csv">CSV file</Link>
