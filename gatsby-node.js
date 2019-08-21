@@ -104,9 +104,7 @@ exports.onPostBuild = async ({ graphql }) => {
       description: node.excerpt,
       location: node.frontmatter.locationName,
       url: 'https://kickofftimestemplate.netlify.com' + node.fields.slug,
-      //categories: ['Code', 'Side Projects', 'Kick Off'],
       status: 'CONFIRMED',
-      //organizer: { name: 'Si Jobling', email: 'simon.jobling@gmail.com' },
     })
   })
   
