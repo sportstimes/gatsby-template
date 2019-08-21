@@ -57,43 +57,68 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 }
 
 // ICS generation
-console.log('Generating ICS…')
-const ics = require(`ics`)
 const { writeFileSync } = require(`fs`)
-let moment = require(`moment`)
 
-let events = [
+exports.onPostBuild = async ({ graphql }) => {
+  
+  console.log('Generating ICS……');
+  
+  const ics = require(`ics`)
+  let moment = require(`moment`)
+  let events = []
+
+  const result = await graphql(`
   {
-    start: moment('2019-07-10T18:00Z').format('YYYY-M-D-H-m').split("-"),
-    duration: { hours: 0, minutes: 30 },
-    title: 'First ICS event',
-    description: 'Getting ICS node package integrated with this repo',
-    location: 'Virgin Train, West Coast Mainline',
-    url: 'https://kickofftimestemplate.netlify.com/',
-    categories: ['Code', 'Side Projects', 'Kick Off'],
-    status: 'CONFIRMED',
-    organizer: { name: 'Si Jobling', email: 'simon.jobling@gmail.com' },
-  },
-  {
-    start: [2019, 8, 20, 8, 20],
-    duration: { hours: 0, minutes: 30 },
-    title: 'Second ICS event',
-    description: 'Creating a second event',
-    location: 'London Euston Train Station',
-    url: 'https://kickofftimestemplate.netlify.com/',
-    categories: ['Code', 'Side Projects', 'Kick Off'],
-    status: 'CONFIRMED',
-    organizer: { name: 'Si Jobling', email: 'simon.jobling@gmail.com' },
-  },
-]
- 
-ics.createEvents(events, (error, value) => {
-  if (error) {
-    console.log(error)
-    return
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 1000
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            date
+            locationName
+          }
+          fields {
+            slug
+          }
+          excerpt
+        }
+      }
+    }
   }
- 
-  console.log(value)  
-  writeFileSync(`${__dirname}/public/events.ics`, value)
+  `)
 
-})
+  if (result.errors) {
+    console.log(result.errors)
+    throw new Error("Things broke, see console output above")
+  }
+
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    events.push(
+    {
+      start: moment(node.frontmatter.date).format('YYYY-M-D-H-m').split("-"),
+      duration: { hours: 1, minutes: 0 },
+      title: node.frontmatter.title,
+      description: node.excerpt,
+      location: node.frontmatter.locationName,
+      url: 'https://kickofftimestemplate.netlify.com' + node.fields.slug,
+      //categories: ['Code', 'Side Projects', 'Kick Off'],
+      status: 'CONFIRMED',
+      //organizer: { name: 'Si Jobling', email: 'simon.jobling@gmail.com' },
+    })
+  })
+  
+  ics.createEvents(events, (error, value) => {
+    if (error) {
+      console.log(error)
+      return
+    }
+  
+    console.log(value)  
+    writeFileSync(`${__dirname}/public/events.ics`, value)
+
+  })
+
+}
