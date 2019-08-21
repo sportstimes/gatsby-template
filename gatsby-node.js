@@ -64,7 +64,7 @@ exports.onPostBuild = async ({ graphql }) => {
   console.log('Generating ICS……');
   
   const ics = require(`ics`)
-  let moment = require(`moment`)
+  const moment = require(`moment`)
   let events = []
 
   const result = await graphql(`
