@@ -92,7 +92,7 @@ exports.onPostBuild = async ({ graphql }) => {
 
   if (result.errors) {
     console.log(result.errors)
-    throw new Error("Things broke, see console output above")
+    throw new Error("GraphQL fail, see console output above")
   }
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
@@ -113,7 +113,7 @@ exports.onPostBuild = async ({ graphql }) => {
   ics.createEvents(events, (error, value) => {
     if (error) {
       console.log(error)
-      return
+      throw new Error("ICS generation fail, see console output above")
     }
   
     console.log(value)  
