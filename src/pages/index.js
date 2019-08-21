@@ -24,6 +24,7 @@ const IndexPage = ({
             <th>Summary</th>
             <th>When</th>
             <th>Where</th>
+            <th>What</th>
           </tr>
         </thead>
         <tbody>
