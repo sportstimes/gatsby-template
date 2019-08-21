@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}. Built with ♥️ by
+          © {new Date().getFullYear()}. Built with 💪 using
           {` `}
           <a href="https://github.com/kickofftimes/gatsby-template/">Kick Off Times</a> 
         </footer>
