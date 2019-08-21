@@ -23,6 +23,7 @@ const IndexPage = ({
           <tr>
             <th>Summary</th>
             <th>When</th>
+            <th>Where</th>
           </tr>
         </thead>
         <tbody>
@@ -54,6 +55,7 @@ export const pageQuery = graphql`
             date
             path
             title
+            locationName
           }
         }
       }
