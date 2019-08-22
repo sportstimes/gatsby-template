@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-      title: `The Sports Times 🗞️`,
-      description: `Sport event times available in open formats including RSS, ICS and JSON`,
-      siteUrl: `https://kickofftimestemplate.netlify.com`,
+      title: `Rugby World Cup 2019 Times 🏉️`,
+      description: `All the dates and times for Rugby World Cup games, available in open formats including ICS, RSS and CSV`,
+      siteUrl: `https://rugbyworldcuptimes.netlify.com`,
       author: `@si`,
     },
     plugins: [
