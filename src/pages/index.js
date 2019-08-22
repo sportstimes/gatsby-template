@@ -40,6 +40,19 @@ const IndexPage = ({
         {` and `}
         <Link to="/events.csv" className="csv">CSV file</Link>
       </p>
+      <div id="about">
+        <h2>What is this?</h2>
+        <p>The Sports Times is a boilerplate template for providing sports event calendars in open formats for easier consumption. It publishes dates, times &amp; locations using standards that most platforms understand.</p>
+        <dl>
+          <dt><span role="img" aria-label="Calendar">📆️</span> ICS</dt>
+          <dd>Calendar feeds directly into macOS, iOS, Google Android and Microsoft Outlook</dd>
+          <dt><span role="img" aria-label="Satellite">📡</span> RSS</dt>
+          <dd>Really Simple Syndication for content aggregators, online and native apps</dd>
+          <dt><span role="img" aria-label="Document">📄</span> CSV</dt>
+          <dd>Comma-separated content for personal use in the likes of Excel</dd>
+        </dl>
+        <p>It's an <Link to="https://github.com/kickofftimes/gatsby-template">open-source project on Github</Link> for others to use and improve. Fork it, use it, raise a pull-request with your suggestions or simply <Link to="https://github.com/kickofftimes/gatsby-template/issues">raise an issue</Link> with ideas or problems.</p>
+      </div>
      </Layout>
   )
 }
