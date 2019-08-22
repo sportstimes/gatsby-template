@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Moment from "moment"
 
 import Layout from "../components/layout"
@@ -24,6 +24,7 @@ export default function Template({ data }) {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <Link to="/">All events</Link>
       </div>
     </Layout>
   )
