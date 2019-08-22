@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Moment from "moment"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,10 +11,15 @@ export default function Template({ data }) {
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-      <div className="blog-post">
+      <div className="event-post">
         <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date} (until {(frontmatter.endDate || "TBC")})</h2>
-        <h3>{frontmatter.locationName}</h3>
+        <h2>When?</h2>
+          <p className="date">{Moment(frontmatter.date).format("dddd DD MMMM YYYY")}</p>
+          <p className="time">{Moment(frontmatter.date).format("hh:mma")}</p>
+          <p className="timezone">{Moment(frontmatter.date).format("Z")}</p>
+        <h2>Where?</h2>
+        <p>{frontmatter.locationName}</p>
+        <h2>What?</h2>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -28,7 +34,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "dddd DD MMMM YYYY HH:mm Z")
+        date
         endDate(formatString: "HH:mm")
         path
         title
