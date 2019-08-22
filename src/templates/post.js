@@ -15,7 +15,10 @@ export default function Template({ data }) {
         <h1>{frontmatter.title}</h1>
         <h2>When?</h2>
           <p className="date">{Moment(frontmatter.date).format("dddd DD MMMM YYYY")}</p>
-          <p className="time">{Moment(frontmatter.date).format("hh:mma")}</p>
+          <p className="time">
+            {Moment(frontmatter.date).format("hh:mma")}
+            {frontmatter.endDate ? "-" + Moment(frontmatter.endDate).format("hh:mma") : ""}
+          </p>
           <p className="timezone">{Moment(frontmatter.date).format("Z")}</p>
         <h2>Where?</h2>
         <p>{frontmatter.locationName}</p>
@@ -24,7 +27,7 @@ export default function Template({ data }) {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <Link to="/">All events</Link>
+        <p><Link to="/">All events</Link></p>
       </div>
     </Layout>
   )
@@ -36,7 +39,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date
-        endDate(formatString: "HH:mm")
+        endDate
         path
         title
         locationName
