@@ -11,7 +11,12 @@ const EventRow = ({ post }) => (
       </td>
       <td>
         {moment(post.frontmatter.date).format("DD MMM 'YY HH:mm")}
-        <time className="dtstart">{moment(post.frontmatter.date).format("YYYY-MM-DDTHH:mm:ssZ")}</time>
+        <time className="dtstart">
+          {moment(post.frontmatter.date).format("YYYY-MM-DDTHH:mm:ssZ")}
+        </time>
+        <time className="dtend">
+          {moment(post.frontmatter.date).add(1, 'hour').format("YYYY-MM-DDTHH:mm:ssZ")}
+        </time>
       </td>
       <td className="location">
         {post.frontmatter.locationName}
