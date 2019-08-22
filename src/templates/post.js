@@ -18,8 +18,9 @@ export default function Template({ data }) {
           <p className="time">
             {Moment(frontmatter.date).format("hh:mma")}
             {frontmatter.endDate ? "-" + Moment(frontmatter.endDate).format("hh:mma") : ""}
+            {" "}
+            <span className="timezone">({Moment(frontmatter.date).format("Z")})</span>
           </p>
-          <p className="timezone">{Moment(frontmatter.date).format("Z")}</p>
         <h2>Where?</h2>
         <p>{frontmatter.locationName}</p>
         <h2>What?</h2>
