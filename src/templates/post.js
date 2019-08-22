@@ -12,7 +12,7 @@ export default function Template({ data }) {
     <Layout>
       <SEO title={frontmatter.title} />
       <div className="event-post">
-        <h1>{frontmatter.title}</h1>
+        <h1>{frontmatter.title} (Match {frontmatter.matchNumber}, {frontmatter.group})</h1>
         <h2>When?</h2>
           <p className="date">{Moment(frontmatter.date).format("dddd DD MMMM YYYY")}</p>
           <p className="time">
@@ -44,6 +44,8 @@ export const pageQuery = graphql`
         path
         title
         locationName
+        matchNumber
+        group
       }
     }
   }
