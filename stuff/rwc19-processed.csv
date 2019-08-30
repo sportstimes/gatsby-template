@@ -1,0 +1,60 @@
+﻿Match No,Summary,Slug,Full Date,DTSTART,Location Name,Grouping
+1,Japan v Russia,japan-russia,Friday 20 September 2019 11:45:00,2019-09-20T11:45:00Z,"Tokyo Stadium, Tokyo",Pool A
+2,Australia v Fiji,australia-fiji,Saturday 21 September 2019 05:45:00,2019-09-21T05:45:00Z,"Sapporo Dome, Sapporo",Pool D
+3,France v Argentina,france-argentina,Saturday 21 September 2019 08:15:00,2019-09-21T08:15:00Z,"Tokyo Stadium, Tokyo",Pool C
+4,New Zealand v South Africa,new-zealand-south-africa,Saturday 21 September 2019 10:45:00,2019-09-21T10:45:00Z,"International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",Pool B
+5,Italy v Namibia,italy-namibia,Sunday 22 September 2019 06:15:00,2019-09-22T06:15:00Z,"Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City",Pool B
+6,Ireland v Scotland,ireland-scotland,Sunday 22 September 2019 08:45:00,2019-09-22T08:45:00Z,"International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",Pool A
+7,England v Tonga,england-tonga,Sunday 22 September 2019 11:15:00,2019-09-22T11:15:00Z,"Sapporo Dome, Sapporo",Pool C
+8,Wales v Georgia,wales-georgia,Monday 23 September 2019 11:15:00,2019-09-23T11:15:00Z,"City of Toyota Stadium, Aichi Prefecture, Toyota City",Pool D
+9,Russia v Samoa,russia-samoa,Tuesday 24 September 2019 11:15:00,2019-09-24T11:15:00Z,"Kumagaya Rugby Stadium, Saitama Prefecture, Kumagaya City",Pool A
+10,Fiji v Uruguay,fiji-uruguay,Wednesday 25 September 2019 06:15:00,2019-09-25T06:15:00Z,"Kamaishi Recovery Memorial Stadium, Iwate Prefecture, Kamaishi City",Pool D
+11,Italy v Canada,italy-canada,Thursday 26 September 2019 08:45:00,2019-09-26T08:45:00Z,"Fukuoka Hakatanomori Stadium, Fukuoka Prefecture, Fukuoka City",Pool B
+12,England v USA,england-usa,Thursday 26 September 2019 11:45:00,2019-09-26T11:45:00Z,"Kobe Misaki Stadium, Kobe City",Pool C
+13,Argentina v Tonga,argentina-tonga,Saturday 28 September 2019 05:45:00,2019-09-28T05:45:00Z,"Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City",Pool C
+14,Japan v Ireland,japan-ireland,Saturday 28 September 2019 08:15:00,2019-09-28T08:15:00Z,"Shizuoka Stadium Ecopa, Shizuoka Prefecture",Pool A
+15,South Africa v Namibia,south-africa-namibia,Saturday 28 September 2019 10:45:00,2019-09-28T10:45:00Z,"City of Toyota Stadium, Aichi Prefecture, Toyota City",Pool B
+16,Georgia v Uruguay,georgia-uruguay,Sunday 29 September 2019 06:15:00,2019-09-29T06:15:00Z,"Kumagaya Rugby Stadium, Saitama Prefecture, Kumagaya City",Pool D
+17,Australia v Wales,australia-wales,Sunday 29 September 2019 08:45:00,2019-09-29T08:45:00Z,"Tokyo Stadium, Tokyo",Pool D
+18,Scotland v Samoa,scotland-samoa,Monday 30 September 2019 11:15:00,2019-09-20T11:15:00Z,"Kobe Misaki Stadium, Kobe City",Pool A
+19,France v USA,france-usa,Wednesday 02 October 2019 08:45:00,2019-10-02T08:45:00Z,"Fukuoka Hakatanomori Stadium, Fukuoka Prefecture, Fukuoka City",Pool C
+20,New Zealand v Canada,new-zealand-canada,Wednesday 02 October 2019 11:15:00,2019-10-02T11:15:00Z,"Oita Stadium, Oita Prefecture",Pool B
+21,Georgia v Fiji,georgia-fiji,Thursday 03 October 2019 06:15:00,2019-10-03T06:15:00Z,"Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City",Pool D
+22,Ireland v Russia,ireland-russia,Thursday 03 October 2019 11:15:00,2019-10-03T11:15:00Z,"Kobe Misaki Stadium, Kobe City",Pool A
+23,South Africa v Italy,south-africa-italy,Friday 04 October 2019 10:45:00,2019-10-04T10:45:00Z,"Shizuoka Stadium Ecopa, Shizuoka Prefecture",Pool B
+24,Australia v Uruguay,australia-uruguay,Saturday 05 October 2019 06:15:00,2019-10-05T06:15:00Z,"Oita Stadium, Oita Prefecture",Pool D
+25,England v Argentina,england-argentina,Saturday 05 October 2019 09:00:00,2019-10-05T09:00:00Z,"Tokyo Stadium, Tokyo",Pool C
+26,Japan v Samoa,japan-samoa,Saturday 05 October 2019 11:30:00,2019-10-05T11:30:00Z,"City of Toyota Stadium, Aichi Prefecture, Toyota City",Pool A
+27,New Zealand v Namibia,new-zealand-namibia,Sunday 06 October 2019 05:45:00,2019-10-06T05:45:00Z,"Tokyo Stadium, Tokyo",Pool B
+28,France v Tonga,france-tonga,Sunday 06 October 2019 08:45:00,2019-10-06T08:45:00Z,"Kumamoto Stadium, Kumamoto Prefecture, Kumamoto City",Pool C
+29,South Africa v Canada,south-africa-canada,Tuesday 08 October 2019 11:15:00,2019-10-08T11:15:00Z,"Kobe Misaki Stadium, Kobe City",Pool B
+30,Argentina v USA,argentina-usa,Wednesday 09 October 2019 05:45:00,2019-10-09T05:45:00Z,"Kumagaya Rugby Stadium, Saitama Prefecture, Kumagaya City",Pool C
+31,Scotland v Russia,scotland-russia,Wednesday 09 October 2019 08:15:00,2019-10-09T08:15:00Z,"Shizuoka Stadium Ecopa, Shizuoka Prefecture",Pool A
+32,Wales v Fiji,wales-fiji,Wednesday 09 October 2019 10:45:00,2019-10-09T10:45:00Z,"Oita Stadium, Oita Prefecture",Pool D
+33,Australia v Georgia,australia-georgia,Friday 11 October 2019 11:15:00,2019-10-11T11:15:00Z,"Shizuoka Stadium Ecopa, Shizuoka Prefecture",Pool D
+34,New Zealand v Italy,new-zealand-italy,Saturday 12 October 2019 05:45:00,2019-10-12T05:45:00Z,"City of Toyota Stadium, Aichi Prefecture, Toyota City",Pool B
+35,England v France,england-france,Saturday 12 October 2019 09:15:00,2019-10-12T09:15:00Z,"International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",Pool C
+36,Ireland v Samoa,ireland-samoa,Saturday 12 October 2019 11:45:00,2019-10-12T11:45:00Z,"Fukuoka Hakatanomori Stadium, Fukuoka Prefecture, Fukuoka City",Pool A
+37,Namibia v Canada,namibia-canada,Sunday 13 October 2019 04:15:00,2019-10-13T04:15:00Z,"Kamaishi Recovery Memorial Stadium, Iwate Prefecture, Kamaishi City",Pool B
+38,USA v Tonga,usa-tonga,Sunday 13 October 2019 06:45:00,2019-10-13T06:45:00Z,"Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City",Pool C
+39,Wales v Uruguay,wales-uruguay,Sunday 13 October 2019 09:15:00,2019-10-13T09:15:00Z,"Kumamoto Stadium, Kumamoto Prefecture, Kumamoto City",Pool D
+40,Japan v Scotland,japan-scotland,Sunday 13 October 2019 11:45:00,2019-10-13T11:45:00Z,"International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",Pool A
+41,WINNER POOL C v Runner Up Pool D,winner-pool-c-runner-up-pool-d,Saturday 19 October 2019 08:15:00,2019-10-19T08:15:00Z,"Oita Stadium, Oita Prefecture",Quarter-Finals
+42,Winner Pool B v Runner Up Pool A,winner-pool-b-runner-up-pool-a,Saturday 19 October 2019 11:15:00,2019-10-19T11:15:00Z,"Tokyo Stadium, Tokyo",Quarter-Finals
+43,Winner Pool D v Runner Up Pool C,winner-pool-d-runner-up-pool-c,Sunday 20 October 2019 08:15:00,2019-10-20T08:15:00Z,"Oita Stadium, Oita Prefecture",Quarter-Finals
+44,Winner Pool A v Runner Up Pool B,winner-pool-a-runner-up-pool-b,Sunday 20 October 2019 11:15:00,2019-10-20T11:15:00Z,"Tokyo Stadium, Tokyo",Quarter-Finals
+45,Winner Quarter-Final 1 v Winner Quarter-Final 2,winner-quarter-final-1-winner-quarter-final-2,Saturday 26 October 2019 09:00:00,2019-10-26T09:00:00Z,"International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",Semi-Finals
+46,Winner Quarter-Final 3 v Winner Quarter-Final 4,winner-quarter-final-3-winner-quarter-final-4,Sunday 27 October 2019 09:00:00,2019-10-27T09:00:00Z,"International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",Semi-Finals
+47,Loser Semi-Final 1 v Loser Semi-Final 2,loser-semi-final-1-loser-semi-final-2,Friday 01 November 2019 09:00:00,2019-11-01T09:00:00Z,"Tokyo Stadium, Tokyo",Bronze Final
+48,Winner Semi-Final 1 v Winner Semi-Final 2,winner-semi-final-1-winner-semi-final-2,Saturday 02 November 2019 09:00:00,2019-11-02T09:00:00Z,"International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",Final
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
