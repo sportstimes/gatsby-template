@@ -8,4 +8,4 @@ group: Bronze Final
 matchNumber: 47
 
 ---
-Loser Semi-Final 1 v Loser Semi-Final 2
+[Loser Semi-Final 1](/semi-final-1) v [Loser Semi-Final 2](/semi-final-2)

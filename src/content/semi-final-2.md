@@ -8,4 +8,4 @@ group: Semi-Finals
 matchNumber: 46
 
 ---
-Winner Quarter-Final 3 v Winner Quarter-Final 4
+[Winner Quarter-Final 3](/quarter-final-3) v [Winner Quarter-Final 4](/quarter-final-4)

@@ -9,4 +9,4 @@ matchNumber: 48
 
 ---
 
-Winner Semi-Final 1 v Winner Semi-Final 2
+[Winner Semi-Final 1](/semi-final-1) v [Winner Semi-Final 2](/semi-final-2)
