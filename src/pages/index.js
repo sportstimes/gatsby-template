@@ -32,6 +32,7 @@ const IndexPage = ({
         </tbody>
       </table>
       <p>
+        <span role="image" aria-label="Download">⬇️</span>
         Export as 
         {` `}
         <Link to="/events.ics" className="ics">ICS</Link>,
