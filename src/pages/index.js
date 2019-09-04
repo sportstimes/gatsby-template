@@ -22,8 +22,8 @@ const IndexPage = ({
           <tr>
             <th>Summary</th>
             <th>When</th>
-            <th>Where</th>
-            <th>What</th>
+            <th class="location">Where</th>
+            <th class="description">What</th>
           </tr>
         </thead>
         <tbody>
@@ -31,7 +31,7 @@ const IndexPage = ({
         </tbody>
       </table>
       <p>
-        <span role="image" aria-label="Download">⬇️</span>
+        <span role="img" aria-label="Download">⬇️</span>
         Export as 
         {` `}
         <a href="/events.ics" className="ics" download="download">ICS</a>,
