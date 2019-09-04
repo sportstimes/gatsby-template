@@ -2,9 +2,14 @@ time {
     display: none;
 }
 
-@media only screen and (max-width : 375px) {
-    .location,
+@media only screen and (max-width : 414px) {
     .description {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 375px) {
+    .location {
         display: none;
     }
 }
