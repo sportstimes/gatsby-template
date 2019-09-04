@@ -4,7 +4,6 @@ import EventRow from "../components/event-row"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
 
 const IndexPage = ({
   data: {
@@ -35,11 +34,11 @@ const IndexPage = ({
         <span role="image" aria-label="Download">⬇️</span>
         Export as 
         {` `}
-        <Link to="/events.ics" className="ics">ICS</Link>,
+        <a href="/events.ics" className="ics" download="download">ICS</a>,
         {` `}
-        <Link to="/feed.xml" className="rss">RSS feed</Link>
+        <a href="/feed.xml" className="rss">RSS feed</a>
         {` and `}
-        <Link to="/events.csv" className="csv">CSV file</Link>
+        <a href="/events.csv" className="csv" download="download">CSV file</a>
       </p>
       <div id="about">
       </div>
