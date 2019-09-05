@@ -12,7 +12,7 @@ export default function Template({ data }) {
     <Layout>
       <SEO title={frontmatter.title} />
       <div className="event-post">
-        <h1>{frontmatter.title} (Match {frontmatter.matchNumber}, {frontmatter.group})</h1>
+        <h1>{frontmatter.title}</h1>
         <h2>When?</h2>
           <p className="date">{Moment(frontmatter.date).format("dddd DD MMMM YYYY")}</p>
           <p className="time">
@@ -24,6 +24,7 @@ export default function Template({ data }) {
         <h2>Where?</h2>
         <p>{frontmatter.locationName}</p>
         <h2>What?</h2>
+        <p>Match {frontmatter.matchNumber} - {frontmatter.group}</p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}

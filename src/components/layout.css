@@ -234,6 +234,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
+  font-family: 'Kelly Slab', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -515,6 +516,7 @@ dt {
   font-weight: bold;
 }
 th {
+  color: rgba(0,0,0,0.1);
   font-weight: bold;
 }
 li {
