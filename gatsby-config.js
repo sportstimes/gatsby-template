@@ -28,6 +28,16 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'Kelly Slab',
+          //`source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
