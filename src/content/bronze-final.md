@@ -1,8 +1,8 @@
 ---
 path: /bronze-final
 title: Bronze Final
-date: 2019-11-01T09:00Z
-endDate: 2019-11-01T10:20Z
+date: 2019-11-01T08:00Z
+endDate: 2019-11-01T09:20Z
 locationName: Tokyo Stadium, Tokyo
 group: Bronze Final
 matchNumber: 47

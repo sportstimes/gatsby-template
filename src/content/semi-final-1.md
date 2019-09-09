@@ -1,8 +1,8 @@
 ---
 path: /semi-final-1
 title: Semi-Final 1
-date: 2019-10-26T09:00Z
-endDate: 2019-10-26T10:20Z
+date: 2019-10-26T08:00Z
+endDate: 2019-10-26T09:20Z
 locationName: International Stadium Yokohama, Kanagawa Prefecture, Yokohama City
 group: Semi-Finals
 matchNumber: 45
