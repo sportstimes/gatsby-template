@@ -102,8 +102,6 @@ exports.onPostBuild = async ({ graphql }) => {
     throw new Error("GraphQL fail, see console output above")
   }
 
-  console.log(result.data);
-
   result.data.event.edges.forEach(({ node }) => {
     let event = {
       start: moment(node.frontmatter.date).format('YYYY-M-D-H-m').split("-"),
@@ -127,7 +125,7 @@ exports.onPostBuild = async ({ graphql }) => {
       throw new Error("ICS generation fail, see console output above")
     }
   
-    console.log(value)  
+    //console.log(value)  
     writeFileSync(`${__dirname}/public/events.ics`, value)
 
   })
