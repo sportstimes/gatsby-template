@@ -78,6 +78,7 @@ exports.onPostBuild = async ({ graphql }) => {
           frontmatter {
             title
             date
+            endDate
             locationName
           }
           fields {
@@ -99,7 +100,8 @@ exports.onPostBuild = async ({ graphql }) => {
     events.push(
     {
       start: moment(node.frontmatter.date).format('YYYY-M-D-H-m').split("-"),
-      duration: { hours: 1, minutes: 0 },
+      end: moment(node.frontmatter.endDate).format('YYYY-M-D-H-m').split("-"),
+      //duration: { hours: 1, minutes: 0 },
       title: node.frontmatter.title,
       description: node.excerpt,
       location: node.frontmatter.locationName,
