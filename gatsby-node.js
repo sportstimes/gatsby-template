@@ -69,7 +69,7 @@ exports.onPostBuild = async ({ graphql }) => {
 
   const result = await graphql(`
   {
-    allMarkdownRemark(
+    event: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
     ) {
@@ -88,6 +88,11 @@ exports.onPostBuild = async ({ graphql }) => {
         }
       }
     }
+    siteMetaData: site {
+      siteMetadata {
+        title
+      }
+    }
   }
   `)
 
@@ -96,18 +101,23 @@ exports.onPostBuild = async ({ graphql }) => {
     throw new Error("GraphQL fail, see console output above")
   }
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    events.push(
-    {
+  console.log(result.data);
+
+  result.data.event.edges.forEach(({ node }) => {
+    let event = {
       start: moment(node.frontmatter.date).format('YYYY-M-D-H-m').split("-"),
-      end: moment(node.frontmatter.endDate).format('YYYY-M-D-H-m').split("-"),
-      //duration: { hours: 1, minutes: 0 },
       title: node.frontmatter.title,
       description: node.excerpt,
       location: node.frontmatter.locationName,
       url: 'https://kickofftimestemplate.netlify.com' + node.fields.slug,
       status: 'CONFIRMED',
-    })
+    }
+    if(node.frontmatter.endDate) {
+      event.end = moment(node.frontmatter.endDate).format('YYYY-M-D-H-m').split("-")
+    } else {
+      event.duration = { hours: 1, minutes: 0 }
+    }
+    events.push(event)
   })
   
   ics.createEvents(events, (error, value) => {
