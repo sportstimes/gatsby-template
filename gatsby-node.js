@@ -88,9 +88,10 @@ exports.onPostBuild = async ({ graphql }) => {
         }
       }
     }
-    siteMetaData: site {
+    siteMeta: site {
       siteMetadata {
         title
+        siteUrl
       }
     }
   }
@@ -109,7 +110,7 @@ exports.onPostBuild = async ({ graphql }) => {
       title: node.frontmatter.title,
       description: node.excerpt,
       location: node.frontmatter.locationName,
-      url: 'https://kickofftimestemplate.netlify.com' + node.fields.slug,
+      url: result.data.siteMeta.siteMetadata.siteUrl + node.fields.slug,
       status: 'CONFIRMED',
     }
     if(node.frontmatter.endDate) {
