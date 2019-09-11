@@ -204,7 +204,7 @@ html {
 body {
   background: #004400;
   color: rgba(255, 255, 255, 0.8);
-  font-family: Impact, screen;
+  font-family: Impact, Helvetica, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -224,6 +224,13 @@ img {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Kelly Slab', serif;
+}
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -234,7 +241,6 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Kelly Slab', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
