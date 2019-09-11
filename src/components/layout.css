@@ -202,6 +202,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  text-align: center;
   background: #004400;
   color: rgba(255, 255, 255, 0.8);
   font-family: Impact, Helvetica, sans-serif;
