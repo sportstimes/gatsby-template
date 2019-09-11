@@ -38,9 +38,14 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}. Built with 💪 using
           {` `}
-          <a href="https://github.com/kickofftimes/gatsby-template/">The Sports Times</a>.
+          <a href="https://github.com/kickofftimes/gatsby-template/">The Sports Times</a>
           {` `}
-          <Link to="/about">About</Link>
+          by
+          {` `}
+          <a href="https://sijobling.com/">Si Jobling</a>
+          .
+          {` `}
+          <Link to="/about">What is this?</Link>
         </footer>
       </div>
     </>
