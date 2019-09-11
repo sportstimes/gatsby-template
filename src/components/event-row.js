@@ -5,7 +5,7 @@ import moment from "moment"
 import "./event-row.css"
 
 const EventRow = ({ post }) => (
-  <tr className="vevent" id={post.id}>
+  <tr className="vevent" id={'Match' + post.matchNumber}>
       <td className="summary">
         <Link className="url" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
       </td>
