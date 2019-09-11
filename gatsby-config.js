@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
       title: `Rugby World Cup 2019 Times 🏉️`,
       description: `All the dates and times for Rugby World Cup games, available in open formats including ICS, RSS and CSV`,
-      siteUrl: `https://rugbyworldcuptimes.netlify.com`,
+      siteUrl: `https://rugbyworldcuptimes.com`,
       author: `@si`,
     },
     plugins: [
