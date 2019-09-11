@@ -22,7 +22,8 @@ const EventRow = ({ post }) => (
         {post.frontmatter.locationName}
       </td>
       <td className="description">
-        Match {post.frontmatter.matchNumber} ({post.frontmatter.group})
+        <span>Match {post.frontmatter.matchNumber}</span>
+        <span> ({post.frontmatter.group})</span>
       </td>
   </tr>
 )

@@ -6,6 +6,10 @@ time {
     display: none;
 }
 
+.description span {
+    display: block;
+}
+
 @media only screen and (max-width : 414px) {
     .description {
         display: none;
