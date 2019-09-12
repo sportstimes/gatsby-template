@@ -36,8 +36,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <p id="Project">© {new Date().getFullYear()}. Built with 💪 using <a href="https://github.com/kickofftimes/gatsby-template/">The Sports Times</a> <Link to="/about">(Read More&hellip;)</Link></p>
-          <p id="Credits">Rugby World Cup is a registered trademark to Rugby World Cup Limited. Developed by <a href="https://sijobling.com/">Si Jobling</a>. Hosted on <a href="https://netlify.com/">Netlify</a>.</p>
+          <p id="Credits">© {new Date().getFullYear()}. Built with 💪 using <a href="https://github.com/kickofftimes/gatsby-template/">The Sports Times</a> (<Link to="/about">Read More&hellip;</Link>). Rugby World Cup is a registered trademark to Rugby World Cup Limited. Developed by <a href="https://sijobling.com/">Si Jobling</a>. Hosted on <a href="https://netlify.com/">Netlify</a>.</p>
         </footer>
       </div>
     </>
