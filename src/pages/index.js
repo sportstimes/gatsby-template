@@ -16,8 +16,8 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <SEO title="All Events" />
-      <h1>All Events</h1>
+      <SEO title="All the games from Japan" />
+      <h1>All the games from Japan</h1>
       <table>
         <thead>
           <tr>
