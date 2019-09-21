@@ -18,6 +18,9 @@ const IndexPage = ({
     <Layout>
       <SEO title="All Events" />
       <h1>All Events</h1>
+
+  		<p><a href="webcal://kickofftemplate.netlify.com/events.ics" className="ics">Subscribe to all match times in iOS, MacOS and Office</a></p>
+
       <table>
         <thead>
           <tr>
