@@ -10,7 +10,7 @@ const EventRow = ({ post }) => (
         <Link className="url" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
       </td>
       <td>
-        {moment(post.frontmatter.date).format("DD MMM 'YY HH:mm")}
+        {moment(post.frontmatter.date).format("DDD DD MMM HH:mm")}
         <time className="dtstart">
           {moment(post.frontmatter.date).format("YYYY-MM-DDTHH:mm:ssZ")}
         </time>
