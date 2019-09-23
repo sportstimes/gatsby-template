@@ -19,7 +19,10 @@ const IndexPage = ({
       <SEO title="All the games from Japan" />
       <h1>All the games from Japan</h1>
 
-      <p><a href="webcal://rugbyworldcuptimes.com/events.ics" className="ics">Subscribe to all match times in iOS, MacOS and Office</a></p>
+      <p>
+        <span role="img" aria-label="Spiral calendar">🗓</span> 
+        <a href="webcal://rugbyworldcuptimes.com/events.ics" className="ics">Subscribe to all match times in your iOS, MacOS and Office calendar</a>
+      </p>
 
       <table>
         <thead>
