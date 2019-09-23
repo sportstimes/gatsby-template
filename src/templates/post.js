@@ -4,6 +4,7 @@ import Moment from "moment"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import LocalTimezone from "../components/local-timezone"
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -17,10 +18,9 @@ export default function Template({ data }) {
           <p className="date">{Moment(frontmatter.date).format("dddd DD MMMM YYYY")}</p>
           <p className="time">
             {Moment(frontmatter.date).format("hh:mma")}
-            {frontmatter.endDate ? "-" + Moment(frontmatter.endDate).format("hh:mma") : ""}
-            {" "}
-            <span className="timezone">({Moment(frontmatter.date).format("Z")})</span>
+            {frontmatter.endDate ? "&nbsp;-&nbsp;" + Moment(frontmatter.endDate).format("hh:mma") : ""}
           </p>
+          {LocalTimezone}
         <h2>Where?</h2>
         <p>{frontmatter.locationName}</p>
         <h2>What?</h2>
