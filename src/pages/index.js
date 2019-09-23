@@ -21,7 +21,15 @@ const IndexPage = ({
 
       <p>
         <span role="img" aria-label="Spiral calendar">🗓</span> 
-        <a href="webcal://rugbyworldcuptimes.com/events.ics" className="ics">Subscribe to all match times in your iOS, MacOS and Office calendar</a>
+        <a href="webcal://rugbyworldcuptimes.com/events.ics" className="ics">Subscribe to all match times in your iOS, MacOS and Office calendar</a> 
+        <small>
+          or 
+          <a href="https://support.google.com/calendar/answer/37100?hl=en"
+            style={{
+              textDecoration: `underline`,
+              background: `none`,
+            }}>Google Calendar</a>
+        </small>
       </p>
 
       <table>
