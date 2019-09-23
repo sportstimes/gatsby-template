@@ -18,7 +18,7 @@ export default function Template({ data }) {
           <p className="date">{Moment(frontmatter.date).format("dddd DD MMMM YYYY")}</p>
           <p className="time">
             {Moment(frontmatter.date).format("hh:mma")}
-            {frontmatter.endDate ? "&nbsp;-&nbsp;" + Moment(frontmatter.endDate).format("hh:mma") : ""}
+            {frontmatter.endDate ? "-" + Moment(frontmatter.endDate).format("hh:mma") : ""}
           </p>
           {LocalTimezone}
         <h2>Where?</h2>
