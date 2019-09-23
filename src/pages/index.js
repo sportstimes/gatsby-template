@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import EventRow from "../components/event-row"
+import LocalTimezone from "../components/local-timezone"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -38,12 +39,7 @@ const IndexPage = ({
         </small>
       </p>
 
-      <p
-        style={{
-          fontSize: `0.8rem`,
-          fontStyle: `italic`,
-          marginBotom: `0`,
-        }}>(All times are automatically displayed in your local timezone)</p>
+      {LocalTimezone}
 
       <table>
         <thead>
