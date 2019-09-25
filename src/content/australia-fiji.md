@@ -6,6 +6,6 @@ locationName: Sapporo Dome, Sapporo, Japan
 path: /australia-fiji
 group: Pool D
 matchNumber: 2
-
+tags: ["australia","fiji"]
 ---
 The first game in Pool D
