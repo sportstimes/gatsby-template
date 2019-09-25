@@ -1,5 +1,5 @@
 ---
-path: /quarter-final-2
+path: /quarter-final-2/
 title: Quarter-Final 2
 date: 2019-10-19T10:15Z
 endDate: 2019-10-19T11:35Z

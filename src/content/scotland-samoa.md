@@ -1,5 +1,5 @@
 ---
-path: /scotland-samoa
+path: /scotland-samoa/
 title: Scotland v Samoa
 date: 2019-09-30T10:15Z
 endDate: 2019-09-30T11:35Z

@@ -1,5 +1,5 @@
 ---
-path: /south-africa-italy
+path: /south-africa-italy/
 title: South Africa v Italy
 date: 2019-10-04T09:45Z
 endDate: 2019-10-04T11:05Z

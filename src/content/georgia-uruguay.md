@@ -1,5 +1,5 @@
 ---
-path: /georgia-uruguay
+path: /georgia-uruguay/
 title: Georgia v Uruguay
 date: 2019-09-29T05:15Z
 endDate: 2019-09-29T06:35Z

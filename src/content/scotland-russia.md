@@ -1,5 +1,5 @@
 ---
-path: /scotland-russia
+path: /scotland-russia/
 title: Scotland v Russia
 date: 2019-10-09T07:15Z
 endDate: 2019-10-09T08:35Z

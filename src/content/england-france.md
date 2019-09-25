@@ -1,5 +1,5 @@
 ---
-path: /england-france
+path: /england-france/
 title: England v France
 date: 2019-10-12T08:15Z
 endDate: 2019-10-12T09:35Z

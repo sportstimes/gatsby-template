@@ -1,5 +1,5 @@
 ---
-path: /new-zealand-italy
+path: /new-zealand-italy/
 title: New Zealand v Italy
 date: 2019-10-12T04:45Z
 endDate: 2019-10-12T06:05Z

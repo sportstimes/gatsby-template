@@ -1,5 +1,5 @@
 ---
-path: /new-zealand-canada
+path: /new-zealand-canada/
 title: New Zealand v Canada
 date: 2019-10-02T10:15Z
 endDate: 2019-10-02T11:35Z

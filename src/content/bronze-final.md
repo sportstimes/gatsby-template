@@ -1,5 +1,5 @@
 ---
-path: /bronze-final
+path: /bronze-final/
 title: Bronze Final
 date: 2019-11-01T08:00Z
 endDate: 2019-11-01T09:20Z
@@ -8,4 +8,4 @@ group: Bronze Final
 matchNumber: 47
 
 ---
-[Loser Semi-Final 1](/semi-final-1) v [Loser Semi-Final 2](/semi-final-2)
+[Loser Semi-Final 1](/semi-final-1/) v [Loser Semi-Final 2](/semi-final-2/)

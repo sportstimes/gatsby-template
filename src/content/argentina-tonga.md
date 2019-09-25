@@ -1,5 +1,5 @@
 ---
-path: /argentina-tonga
+path: /argentina-tonga/
 title: Argentina v Tonga
 date: 2019-09-28T04:45Z
 endDate: 2019-09-28T06:05Z

@@ -1,5 +1,5 @@
 ---
-path: /japan-samoa
+path: /japan-samoa/
 title: Japan v Samoa
 date: 2019-10-05T10:30Z
 endDate: 2019-10-05T11:50Z

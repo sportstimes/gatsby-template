@@ -1,5 +1,5 @@
 ---
-path: /georgia-fiji
+path: /georgia-fiji/
 title: Georgia v Fiji
 date: 2019-10-03T05:15Z
 endDate: 2019-10-03T06:35Z
