@@ -72,6 +72,10 @@ function SEO({ description, lang, meta, title, defaultImage }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+          content: site.siteMetadata.defaultImage,
+        },
       ].concat(meta)}
     />
   )
