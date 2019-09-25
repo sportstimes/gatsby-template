@@ -64,8 +64,6 @@ const IndexPage = ({
         {` and `}
         <a href="/events.csv" className="csv" download="download">CSV file</a>
       </p>
-      <div id="about">
-      </div>
      </Layout>
   )
 }
