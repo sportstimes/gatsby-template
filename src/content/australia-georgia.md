@@ -1,5 +1,5 @@
 ---
-path: /australia-georgia
+path: /australia-georgia/
 title: Australia v Georgia
 date: 2019-10-11T10:15Z
 endDate: 2019-10-11T11:35Z

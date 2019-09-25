@@ -1,5 +1,5 @@
 ---
-path: /wales-georgia
+path: /wales-georgia/
 title: Wales v Georgia
 date: 2019-09-23T10:15Z
 endDate: 2019-09-23T11:35Z

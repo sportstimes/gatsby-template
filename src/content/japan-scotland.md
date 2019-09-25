@@ -1,5 +1,5 @@
 ---
-path: /japan-scotland
+path: /japan-scotland/
 title: Japan v Scotland
 date: 2019-10-13T10:45Z
 endDate: 2019-10-13T12:05Z

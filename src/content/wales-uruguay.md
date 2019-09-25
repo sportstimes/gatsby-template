@@ -1,5 +1,5 @@
 ---
-path: /wales-uruguay
+path: /wales-uruguay/
 title: Wales v Uruguay
 date: 2019-10-13T08:15Z
 endDate: 2019-10-13T09:35Z

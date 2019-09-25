@@ -1,5 +1,5 @@
 ---
-path: /england-tonga
+path: /england-tonga/
 title: England v Tonga
 date: 2019-09-22T10:15Z
 endDate: 2019-09-22T11:35Z

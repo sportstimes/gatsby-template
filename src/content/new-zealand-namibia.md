@@ -1,5 +1,5 @@
 ---
-path: /new-zealand-namibia
+path: /new-zealand-namibia/
 title: New Zealand v Namibia
 date: 2019-10-06T04:45Z
 endDate: 2019-10-06T06:05Z

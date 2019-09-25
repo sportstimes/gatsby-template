@@ -1,5 +1,5 @@
 ---
-path: /italy-canada
+path: /italy-canada/
 title: Italy v Canada
 date: 2019-09-26T07:45Z
 endDate: 2019-09-26T09:05Z

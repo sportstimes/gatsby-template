@@ -1,5 +1,5 @@
 ---
-path: /fiji-uruguay
+path: /fiji-uruguay/
 title: Fiji v Uruguay
 date: 2019-09-25T05:15Z
 endDate: 2019-09-25T06:35Z

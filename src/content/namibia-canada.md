@@ -1,5 +1,5 @@
 ---
-path: /namibia-canada
+path: /namibia-canada/
 title: Namibia v Canada
 date: 2019-10-13T03:15Z
 endDate: 2019-10-13T04:35Z

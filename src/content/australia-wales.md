@@ -1,5 +1,5 @@
 ---
-path: /australia-wales
+path: /australia-wales/
 title: Australia v Wales
 date: 2019-09-29T07:45Z
 endDate: 2019-09-29T09:05Z

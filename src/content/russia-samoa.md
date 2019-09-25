@@ -1,5 +1,5 @@
 ---
-path: /russia-samoa
+path: /russia-samoa/
 title: Russia v Samoa
 date: 2019-09-24T10:15Z
 endDate: 2019-09-24T11:35Z
