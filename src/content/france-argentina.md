@@ -6,6 +6,7 @@ endDate: 2019-09-21T08:35Z
 locationName: Tokyo Stadium, Tokyo, Japan
 group: Pool C
 matchNumber: 3
+tags: ["France","Argentina"]
 
 ---
 The first game in Pool C

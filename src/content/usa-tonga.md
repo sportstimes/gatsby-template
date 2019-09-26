@@ -6,5 +6,6 @@ endDate: 2019-10-13T07:05Z
 locationName: Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City
 group: Pool C
 matchNumber: 38
+tags: ["USA","Tonga"]
 
 ---

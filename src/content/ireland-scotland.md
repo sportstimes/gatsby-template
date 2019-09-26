@@ -6,5 +6,6 @@ endDate: 2019-09-22T09:05Z
 locationName: International Stadium Yokohama, Kanagawa Prefecture, Yokohama City
 group: Pool A
 matchNumber: 6
+tags: ["Ireland","Scotland"]
 
 ---

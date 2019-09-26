@@ -6,5 +6,6 @@ endDate: 2019-09-28T11:05Z
 locationName: City of Toyota Stadium, Aichi Prefecture, Toyota City
 group: Pool B
 matchNumber: 15
+tags: ["South Africa","Namibia"]
 
 ---

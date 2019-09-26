@@ -6,5 +6,6 @@ endDate: 2019-09-28T08:35Z
 locationName: Shizuoka Stadium Ecopa, Shizuoka Prefecture
 group: Pool A
 matchNumber: 14
+tags: ["Japan","Ireland"]
 
 ---
