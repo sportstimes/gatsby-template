@@ -32,14 +32,14 @@ export default function Template({ data }) {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <h2>Other Matches</h2>
-        <ul>
+        <h2>Want more?</h2>
+        <ul className="inline">
         {frontmatter.tags.map(tag => (
           <li key={tag.fieldValue}>
-            <Link to={`/${kebabCase(tag)}/`}>{tag}</Link>
+            <Link to={`/${kebabCase(tag)}/`}>{tag} matches</Link>
           </li>
         ))}
-        <li><Link to="/">All events</Link></li>
+        <li><Link to="/">All matches</Link></li>
         </ul>
         
       </div>
