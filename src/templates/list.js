@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import EventRow from "../components/event-row"
 import LocalTimezone from "../components/local-timezone"
 
@@ -17,7 +17,7 @@ const IndexPage = ({
   const Events = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <EventRow key={edge.node.id} post={edge.node} />)
-  const listHeader = `${tag} games`
+  const listHeader = `${tag} matches`
   
   return (
     <Layout>
@@ -26,7 +26,7 @@ const IndexPage = ({
 
       <p>
         <span role="img" aria-label="Spiral calendar">🗓</span> 
-        <a href="webcal://rugbyworldcuptimes.com/events.ics" className="ics">Subscribe to all match times in your iOS, MacOS and Office calendar</a> 
+        <a href="webcal://rugbyworldcuptimes.com/events.ics" className="ics">Subscribe to ALL match times in your iOS, MacOS and Office calendar</a> 
         <small
           style={{
             display: `block`,
@@ -59,17 +59,8 @@ const IndexPage = ({
         </tbody>
       </table>
       <p>
-        <span role="img" aria-label="Download">⬇️</span>
-        Export as 
-        {` `}
-        <a href="/events.ics" className="ics" download="download">ICS</a>,
-        {` `}
-        <a href="/feed.xml" className="rss">RSS feed</a>
-        {` and `}
-        <a href="/events.csv" className="csv" download="download">CSV file</a>
+        <Link to="/">All matches</Link>
       </p>
-      <div id="about">
-      </div>
      </Layout>
   )
 }
