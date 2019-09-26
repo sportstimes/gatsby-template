@@ -1,10 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Moment from "moment"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import LocalTimezone from "../components/local-timezone"
+
+// Utilities
+import Moment from "moment"
+import kebabCase from "lodash/kebabCase"
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -29,8 +32,16 @@ export default function Template({ data }) {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-
-        <p><Link to="/">All events</Link></p>
+        <h2>Other Matches</h2>
+        <ul>
+        {frontmatter.tags.map(tag => (
+          <li key={tag.fieldValue}>
+            <Link to={`/${kebabCase(tag)}/`}>{tag}</Link>
+          </li>
+        ))}
+        <li><Link to="/">All events</Link></li>
+        </ul>
+        
       </div>
     </Layout>
   )
