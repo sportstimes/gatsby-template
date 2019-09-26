@@ -7,18 +7,21 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = ({
+  pageContext,
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
+  const { tag } = pageContext
   const Events = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <EventRow key={edge.node.id} post={edge.node} />)
-
+  const listHeader = `${tag} games`
+  
   return (
     <Layout>
-      <SEO title="All the games from Japan" />
-      <h1>All the games from Japan</h1>
+      <SEO title={listHeader} />
+      <h1>{listHeader}</h1>
 
       <p>
         <span role="img" aria-label="Spiral calendar">🗓</span> 
@@ -77,6 +80,7 @@ export const pageQuery = graphql`
       sort: { order: ASC, fields: [frontmatter___date] }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
+      totalCount
       edges {
         node {
           id
