@@ -6,5 +6,6 @@ endDate: 2019-10-12T09:35Z
 locationName: International Stadium Yokohama, Kanagawa Prefecture, Yokohama City
 group: Pool C
 matchNumber: 35
+tags: ["England","France"]
 
 ---

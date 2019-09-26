@@ -6,5 +6,6 @@ endDate: 2019-10-02T09:05Z
 locationName: Fukuoka Hakatanomori Stadium, Fukuoka Prefecture, Fukuoka City
 group: Pool C
 matchNumber: 19
+tags: ["France","USA"]
 
 ---

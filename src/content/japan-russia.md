@@ -6,6 +6,7 @@ endDate: 2019-09-20T12:15Z
 locationName: Tokyo Stadium, Tokyo
 group: Pool A
 matchNumber: 1
+tags: ["Japan","Russia"]
 
 ---
 The opening game between competition hosts Japan and Russia

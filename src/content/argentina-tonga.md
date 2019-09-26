@@ -6,5 +6,5 @@ endDate: 2019-09-28T06:05Z
 locationName: Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City
 group: Pool C
 matchNumber: 13
-tags: ["argentina","tonga"]
+tags: ["Argentina","Tonga"]
 ---

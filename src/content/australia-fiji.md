@@ -6,6 +6,6 @@ endDate: 2019-09-21T06:05Z
 locationName: Sapporo Dome, Sapporo, Japan
 group: Pool D
 matchNumber: 2
-tags: ["australia","fiji"]
+tags: ["Australia","Fiji"]
 ---
 The first game in Pool D

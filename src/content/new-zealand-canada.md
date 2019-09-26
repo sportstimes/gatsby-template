@@ -6,5 +6,6 @@ endDate: 2019-10-02T11:35Z
 locationName: Oita Stadium, Oita Prefecture
 group: Pool B
 matchNumber: 20
+tags: ["New Zealand","Canada"]
 
 ---
