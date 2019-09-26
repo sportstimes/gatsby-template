@@ -12,6 +12,7 @@ import kebabCase from "lodash/kebabCase"
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  const tags = frontmatter.tags || {}
   return (
     <Layout>
       <SEO title={frontmatter.title} />
@@ -34,11 +35,13 @@ export default function Template({ data }) {
         />
         <h2>Want more?</h2>
         <ul className="inline">
-        {frontmatter.tags.map(tag => (
+        {
+          tags.map(tag => (
           <li key={tag.fieldValue}>
             <Link to={`/${kebabCase(tag)}/`}>{tag} matches</Link>
           </li>
-        ))}
+          ))
+        }
         <li><Link to="/">All matches</Link></li>
         </ul>
         
