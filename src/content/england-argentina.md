@@ -6,5 +6,6 @@ endDate: 2019-10-05T09:20Z
 locationName: Tokyo Stadium, Tokyo
 group: Pool C
 matchNumber: 25
+tags: ["England","Argentina"]
 
 ---

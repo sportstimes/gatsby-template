@@ -6,5 +6,6 @@ endDate: 2019-10-03T11:35Z
 locationName: Kobe Misaki Stadium, Kobe City
 group: Pool A
 matchNumber: 22
+tags: ["Ireland","Russia"]
 
 ---
