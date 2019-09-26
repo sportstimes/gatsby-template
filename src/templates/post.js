@@ -29,6 +29,7 @@ export default function Template({ data }) {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+
         <p><Link to="/">All events</Link></p>
       </div>
     </Layout>
@@ -47,6 +48,7 @@ export const pageQuery = graphql`
         locationName
         matchNumber
         group
+        tags
       }
     }
   }

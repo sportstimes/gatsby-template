@@ -13,17 +13,11 @@ const IndexPage = ({
   },
 }) => {
   const { tag } = pageContext
-  const words = tag.split(" ");
-
-  for (var i = 0, x = words.length; i < x; i++) {
-      words[i] = words[i][0].toUpperCase() + words[i].substr(1);
-  }
-  const tagFormatted = words.join(" ");
 
   const Events = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <EventRow key={edge.node.id} post={edge.node} />)
-  const listHeader = `${tagFormatted} games`
+  const listHeader = `${tag} games`
   
   return (
     <Layout>
