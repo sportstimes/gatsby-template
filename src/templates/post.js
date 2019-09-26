@@ -24,7 +24,17 @@ export default function Template({ data }) {
         <h2>Where?</h2>
         <p>{frontmatter.locationName}</p>
         <h2>What?</h2>
-        <p>Match {frontmatter.matchNumber} - {frontmatter.group}</p>
+        <table>
+          <tr>
+            <th>Match</th>
+            <th>Group</th>
+          </tr>
+          <tr>
+            <td>{frontmatter.matchNumber}</td>
+            <td>{frontmatter.group}</td>
+          </tr>
+        </table>
+
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
