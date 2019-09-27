@@ -4,7 +4,7 @@ module.exports = {
       description: `All the dates and times for Rugby World Cup games, available in open formats including ICS, RSS and CSV`,
       siteUrl: `https://rugbyworldcuptimes.com`,
       author: `@si`,
-      image: "src/images/rugby-world-cup-2019-times-social.png",
+      image: "/src/images/rugby-world-cup-2019-times-social.png",
     },
     plugins: [
     `gatsby-plugin-react-helmet`,

@@ -16,6 +16,7 @@ function SEO({ description, lang, meta, title, defaultImage }) {
       query {
         site {
           siteMetadata {
+            siteUrl
             title
             description
             author
@@ -54,7 +55,7 @@ function SEO({ description, lang, meta, title, defaultImage }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.defaultImage,
+          content: site.siteMetadata.siteUrl + site.siteMetadata.defaultImage,
         },
         {
           name: `twitter:card`,
@@ -74,7 +75,7 @@ function SEO({ description, lang, meta, title, defaultImage }) {
         },
         {
           name: `twitter:image`,
-          content: site.siteMetadata.defaultImage,
+          content: site.siteMetadata.siteUrl + site.siteMetadata.defaultImage,
         },
       ].concat(meta)}
     />
