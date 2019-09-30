@@ -5,7 +5,7 @@ import moment from "moment"
 import "./event-row.css"
 
 const EventRow = ({ post }) => (
-  <tr id={'Match' + post.matchNumber} className={ "vevent" + (moment(post.frontmatter.date).isBefore() ? " past" : "") }>
+  <tr id={'Match' + post.frontmatter.matchNumber} className={ "vevent" + (moment(post.frontmatter.date).isBefore() ? " past" : "") }>
       <td className="summary">
         <Link className="url" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
       </td>
