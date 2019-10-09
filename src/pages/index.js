@@ -81,8 +81,6 @@ export const pageQuery = graphql`
             path
             title
             locationName
-            matchNumber
-            group
           }
         }
       }
