@@ -40,11 +40,14 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  background-color: rgba(0,0,0,0.8);
+  color: rgb(225, 230, 225);
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
+  background-color: rgba(0,0,0,1);
   outline-width: 0;
 }
 abbr[title] {
@@ -199,8 +202,10 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  text-align: center;
+  background: rgb(225, 230, 225);
+  color: rgba(30, 30, 30, 0.8);
+  font-family: Impact, Helvetica, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -220,107 +225,50 @@ img {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-h1 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
+footer {
+  text-align: justify;
+  font-size: 0.85rem;
+  opacity: 0.4;
+  margin: 5rem 0 0;
 }
-h2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Kelly Slab', serif;
   font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
   line-height: 1.1;
+  text-rendering: optimizeLegibility;
+  margin: 0 0 1.45rem;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 1.45rem;
+  font-size: 2.25rem;
+}
+h1 a,
+h1 a:hover,
+h1 a:active {
+  background: none;
+}
+
+h2 {
+  font-size: 1.62671rem;
 }
 h3 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
-  line-height: 1.1;
 }
 h4 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
   font-size: 1rem;
-  line-height: 1.1;
 }
 h5 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
-  line-height: 1.1;
 }
 h6 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
-  line-height: 1.1;
 }
 hgroup {
   margin-left: 0;
@@ -506,6 +454,7 @@ dt {
   font-weight: bold;
 }
 th {
+  color: rgba(0,0,0,0.7);
   font-weight: bold;
 }
 li {
@@ -569,7 +518,7 @@ thead {
 }
 td,
 th {
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
@@ -619,4 +568,9 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+ul.inline li {
+  display: inline-block;
+  margin: 0 1rem 1rem 0;
 }

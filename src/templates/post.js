@@ -1,13 +1,19 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Moment from "moment"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import LocalTimezone from "../components/local-timezone"
+
+// Utilities
+import Moment from "moment"
+import kebabCase from "lodash/kebabCase"
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  const tags = frontmatter.tags 
+
   return (
     <Layout>
       <SEO title={frontmatter.title} />
@@ -16,19 +22,31 @@ export default function Template({ data }) {
         <h2>When?</h2>
           <p className="date">{Moment(frontmatter.date).format("dddd DD MMMM YYYY")}</p>
           <p className="time">
-            {Moment(frontmatter.date).format("hh:mma")}
-            {frontmatter.endDate ? "-" + Moment(frontmatter.endDate).format("hh:mma") : ""}
-            {" "}
-            <span className="timezone">({Moment(frontmatter.date).format("Z")})</span>
+            {Moment(frontmatter.date).format("hh:mma") + (frontmatter.endDate ? "-" + Moment(frontmatter.endDate).format("hh:mma") : "") }
           </p>
+          {LocalTimezone}
         <h2>Where?</h2>
         <p>{frontmatter.locationName}</p>
-        <h2>What?</h2>
+
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <p><Link to="/">📅 All events</Link></p>
+
+        <h2>Want more?</h2>
+        <ul className="inline">
+        { 
+          tags ? 
+          tags.map(tag => (
+            <li key={tag.fieldValue}>
+            <Link to={`/${kebabCase(tag)}/`}>{tag} events</Link>
+          </li>
+          )) : ''
+        }
+        <li><Link to="/"><span role="img" aria-label="Spiral calendar">📅</span>
+          All events</Link></li>
+        </ul>
+
       </div>
     </Layout>
   )
@@ -44,6 +62,7 @@ export const pageQuery = graphql`
         path
         title
         locationName
+        tags
       }
     }
   }
