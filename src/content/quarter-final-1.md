@@ -1,12 +1,11 @@
 ---
-path: /quarter-final-1/
-title: Quarter Final 1
+path: /england-australia/
+title: England v Australia
 date: 2019-10-19T07:15Z
 endDate: 2019-10-19T08:35Z
 locationName: Oita Stadium, Oita Prefecture
 group: Quarter-Finals
 matchNumber: 41
-
+tags: ["England", "Australia"]
 ---
-
-Winner Pool C v Runner-Up Pool D
+First quarter final with England (winner from Pool C) against Australia (runner-up from Pool D)
