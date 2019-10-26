@@ -1,8 +1,8 @@
 ---
 path: /wales-south-africa/
 title: Wales v South Africa
-date: 2019-10-27T08:00Z
-endDate: 2019-10-27T09:20Z
+date: 2019-10-27T09:00Z
+endDate: 2019-10-27T10:20Z
 locationName: International Stadium Yokohama, Kanagawa Prefecture, Yokohama City
 group: Semi-Finals
 matchNumber: 46
