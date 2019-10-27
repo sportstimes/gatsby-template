@@ -1,5 +1,5 @@
 ---
-path: /nee-zealand-wales/
+path: /new-zealand-wales/
 title: New Zealand v Wales
 date: 2019-11-01T09:00Z
 endDate: 2019-11-01T10:20Z
