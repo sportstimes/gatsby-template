@@ -1,6 +1,6 @@
 ---
-path: /bronze-final/
-title: Bronze Final
+path: /nee-zealand-wales/
+title: New Zealand v Wales
 date: 2019-11-01T09:00Z
 endDate: 2019-11-01T10:20Z
 locationName: Tokyo Stadium, Tokyo
