@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -36,9 +36,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}. Built with 💪 using
-          {` `}
-          <a href="https://github.com/kickofftimes/gatsby-template/">Kick Off Times</a> 
+          <p id="Credits">© {new Date().getFullYear()}. Built with 💪 using <a href="https://github.com/kickofftimes/gatsby-template/">The Sports Times</a> (<Link to="/about">Read More&hellip;</Link>). Rugby World Cup is a registered trademark to Rugby World Cup Limited. Developed by <a href="https://sijobling.com/">Si Jobling</a>. Hosted on <a href="https://netlify.com/">Netlify</a>.</p>
         </footer>
       </div>
     </>

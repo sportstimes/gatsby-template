@@ -1,3 +1,27 @@
+tr.past {
+    opacity: 0.4;
+}
+td {
+    width: 25%;
+}
+
 time {
     display: none;
 }
+
+.description span {
+    display: block;
+}
+
+@media only screen and (max-width : 414px) {
+    .description {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 375px) {
+    .location {
+        display: none;
+    }
+}
+    
