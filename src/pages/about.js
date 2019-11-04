@@ -6,8 +6,9 @@ import SEO from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
+    <h2>Providing sports event data in open formats for easier consumption</h2>
     <h2>What is this?</h2>
-    <p>The Sports Times is a boilerplate template for providing sports event calendars in open formats for easier consumption. It publishes dates, times &amp; locations using standards that most platforms understand.</p>
+    <p>The Sports Times is a Gatsby boilerplate template to fulfil our mission statement. It publishes dates, times &amp; locations using standards that most tech platforms understand.</p>
     <dl>
       <dt><span role="img" aria-label="Calendar">📆️</span> ICS</dt>
       <dd>Calendar feeds directly into macOS, iOS, Google Android, Microsoft Windows &amp; Office</dd>
