@@ -8,9 +8,9 @@ const AboutPage = () => (
     <SEO title="About" />
     <h2 id="MissionStatement">Providing sports event data in open formats for easier consumption</h2>
     <ul id="Goals">
-      <li>Democratise sports event data</li>
-      <li>Establish reusable relevant standards</li>
-      <li>Build a community of evangelists</li>      
+      <li><span role="img" aria-label="Scales">⚖️</span> Democratise sports event data</li>
+      <li><span role="img" aria-label="Scroll">📜</span> Establish reusable relevant standards</li>
+      <li><span role="img" aria-label="Silhouette heads">👥</span> Build a community of evangelists</li>      
     </ul>
     <h2 id="What">What is this?</h2>
     <p>The Sports Times is a Gatsby boilerplate template to fulfil our mission statement. It publishes dates, times &amp; locations using standards that most tech platforms understand.</p>
