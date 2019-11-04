@@ -10,6 +10,7 @@ const AboutPage = () => (
     <ul id="Goals">
       <li><span role="img" aria-label="Scales">⚖️</span> Democratise sports event data</li>
       <li><span role="img" aria-label="Scroll">📜</span> Establish reusable relevant standards</li>
+      <li><span role="img" aria-label="Toolbox">🧰</span> Create applications for easy distribution of sports events</li>
       <li><span role="img" aria-label="Silhouette heads">👥</span> Build a community of evangelists</li>      
     </ul>
     <h2 id="What">What is this?</h2>
