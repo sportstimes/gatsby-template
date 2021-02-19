@@ -17,7 +17,7 @@ const IndexPage = ({
   const Events = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <EventRow key={edge.node.id} post={edge.node} />)
-  const listHeader = `${tag} matches`
+  const listHeader = `${tag} events`
   
   return (
     <Layout>
