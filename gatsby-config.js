@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
       title: `The Sports Times 🗞️`,
       description: `Sport event times available in open formats including RSS, ICS and JSON`,
-      siteUrl: `https://kickofftimestemplate.netlify.com`,
+      siteUrl: `https://sportstimes.netlify.app`,
       author: `@si`,
     },
     plugins: [
