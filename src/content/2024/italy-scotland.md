@@ -1,6 +1,6 @@
 ---
 title: Italy v Scotland
-date: 2024-03-095T14:15Z
+date: 2024-03-09T14:15Z
 endDate: 2024-03-09T16:15Z
 locationName: Stadio Olimpico
 path: /2024/italy-scotland/
