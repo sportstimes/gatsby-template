@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-      title: `6 Nations Calendar`,
+      title: `6 Nations Calendar 🏉`,
       description: `6 Nations kick-off times available in open formats including RSS, ICS and JSON`,
       siteUrl: `https://6nationscalendar.netlify.app`,
       author: `@si`,
@@ -22,7 +22,7 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#333333`,
+        background_color: `#006600`,
         theme_color: `#FFCCFF`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.

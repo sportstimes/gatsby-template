@@ -17,7 +17,7 @@ const IndexPage = ({
   const Events = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <EventRow key={edge.node.id} post={edge.node} />)
-  const listHeader = `${tag} events`
+  const listHeader = `${tag} games`
   
   return (
     <Layout>
@@ -51,7 +51,7 @@ const IndexPage = ({
             <th>Summary</th>
             <th>When</th>
             <th class="location">Where</th>
-            <th class="description">What</th>
+            <th class="description" style={{display:`none`}}>What</th>
           </tr>
         </thead>
         <tbody>
@@ -59,7 +59,7 @@ const IndexPage = ({
         </tbody>
       </table>
       <p>
-        <Link to="/">All matches</Link>
+        <Link to="/">All games</Link>
       </p>
      </Layout>
   )

@@ -18,8 +18,7 @@ const IndexPage = ({
   return (
     <Layout>
 
-      <SEO title="All Events" />
-      <h1>All Events</h1>
+      <SEO title="All games" />
 
   		<p>
         <span role="img" aria-label="Spiral calendar">🗓</span> 
@@ -47,7 +46,7 @@ const IndexPage = ({
             <th>Summary</th>
             <th>When</th>
             <th class="location">Where</th>
-            <th class="description">What</th>
+            <th class="description" style={{display:`none`}}>What</th>
           </tr>
         </thead>
         <tbody>
