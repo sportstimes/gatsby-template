@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-      title: `The Sports Times 🗞️`,
-      description: `Sport event times available in open formats including RSS, ICS and JSON`,
-      siteUrl: `https://sportstimes.netlify.app`,
+      title: `6 Nations Calendar`,
+      description: `6 Nations kick-off times available in open formats including RSS, ICS and JSON`,
+      siteUrl: `https://6nationscalendar.netlify.app`,
       author: `@si`,
     },
     plugins: [
