@@ -254,6 +254,7 @@ h1 {
 h1 a,
 h1 a:hover,
 h1 a:active {
+  border: none;
   background: none;
 }
 
@@ -575,4 +576,16 @@ pre tt:after {
 ul.inline li {
   display: inline-block;
   margin: 0 1rem 1rem 0;
+}
+
+a.ics {
+  background: rgba(0,0,0,0.9);
+  color: #EEE;
+  padding: 1rem;
+  display: block;
+  transition: all 0.5s ease;
+}
+a.ics:active,
+a.ics:focus {
+  color: #FFF;
 }
