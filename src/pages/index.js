@@ -30,12 +30,7 @@ const IndexPage = ({
         >
           or 
           {` `}
-          <a href="https://support.google.com/calendar/answer/37100?hl=en"
-            style={{
-              textDecoration: `underline`,
-              background: `none`,
-              color: `rgba(255,255,255,0.8)`
-            }}>Google Calendar</a>
+          <a href="https://support.google.com/calendar/answer/37100?hl=en">Google Calendar</a>
         </small>      
       </p>
       {LocalTimezone}
