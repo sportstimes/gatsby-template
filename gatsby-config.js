@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
       title: `6 Nations Calendar 🏉`,
       description: `6 Nations kick-off times available in open formats including RSS, ICS and JSON`,
-      siteUrl: `https://6nationscalendar.netlify.app`,
+      siteUrl: `https://6nationscalendar.com`,
       author: `@si`,
     },
     plugins: [
@@ -172,7 +172,7 @@ module.exports = {
         pageTransitionDelay: 0,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "rugbyworldcuptimes.com",
+        cookieDomain: "6nationscalendar.com",
       },
     },
 
