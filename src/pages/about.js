@@ -24,8 +24,8 @@ const AboutPage = () => (
       <dd>Comma-separated content for personal use in the likes of Excel</dd>
     </dl>
     <h3 id="How">How do you use it?</h3>
-    <p>If you want to publish your own calendar of events for others to reference with ease, <a href="https://github.com/kickofftimes/gatsby-template">clone the repo</a>, customise to your hearts content and host on your own website or domain.</p>
-    <p>It's an <a href="https://github.com/kickofftimes/gatsby-template">open-source project on Github</a> for others to use and improve. Fork it, use it, raise a pull-request with your suggestions or simply <a href="https://github.com/kickofftimes/gatsby-template/issues">raise an issue</a> with ideas or problems.</p>
+    <p>If you want to publish your own calendar of events for others to reference with ease, <a href="https://github.com/sportstimes/gatsby-template">clone the repo</a>, customise to your hearts content and host on your own website or domain.</p>
+    <p>It's an <a href="https://github.com/sportstimes/gatsby-template">open-source project on Github</a> for others to use and improve. Fork it, use it, raise a pull-request with your suggestions or simply <a href="https://github.com/sportstimes/gatsby-template/issues">raise an issue</a> with ideas or problems.</p>
   </Layout>
 )
 
