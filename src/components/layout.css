@@ -240,7 +240,7 @@ h3,
 h4,
 h5 {
   color: inherit;
-  font-family: "Kelly Slab", serif;
+  font-family: "Michroma", sans-serif;
   font-weight: bold;
   line-height: 1.1;
   text-rendering: optimizeLegibility;
@@ -592,4 +592,15 @@ a.ics:focus {
 
 span[role="img"] {
   margin-right: 0.5rem;
+}
+
+#Goals li {
+  display: inline-block;
+  margin: 0;
+  padding: 1rem;
+  width: 49%;
+}
+#Goals li span[role="img"] {
+  font-size: 2rem;
+  display: block;
 }
