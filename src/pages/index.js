@@ -54,11 +54,11 @@ const IndexPage = ({
         <span role="img" aria-label="Download">⬇️</span>
         Export as 
         {` `}
-        <a href="/events.ics" className="ics" download="download">ICS</a>,
+        <a href="/events.ics" download="download">ICS</a>,
         {` `}
-        <a href="/feed.xml" className="rss">RSS feed</a>
+        <a href="/feed.xml">RSS feed</a>
         {` and `}
-        <a href="/events.csv" className="csv" download="download">CSV file</a>
+        <a href="/events.csv" download="download">CSV file</a>
       </p>
      </Layout>
   )
