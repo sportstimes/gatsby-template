@@ -130,7 +130,7 @@ exports.onPostBuild = async ({ graphql }) => {
     let start = moment(node.frontmatter.date)
     let startDate = [
       start.year(),
-      start.month(),
+      (start.month()+1),
       start.date(),
       start.hour(),
       start.minutes()
@@ -148,7 +148,7 @@ exports.onPostBuild = async ({ graphql }) => {
       let end = moment(node.frontmatter.endDate)
       let endDate = [
         end.year(),
-        end.month(),
+        (end.month()+1),
         end.date(),
         end.hour(),
         end.minutes()
