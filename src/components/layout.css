@@ -40,13 +40,15 @@ template {
   display: none;
 }
 a {
-  border-bottom: 2px solid #000;
+  color: #000;
+  border-bottom: 2px solid #222;
   text-decoration: none;
+  padding: 0.25rem;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
-  background-color: rgba(0,0,0,0.3);
+  border-color: #000;
   outline-width: 0;
 }
 abbr[title] {
