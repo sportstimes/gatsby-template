@@ -22,7 +22,7 @@ const IndexPage = ({
 
   		<p>
         <span role="img" aria-label="Spiral calendar">🗓</span> 
-        <a href="webcal://sportstimes.netlify.app/events.ics" className="ics">Subscribe to all event times in iOS, MacOS and Office</a>
+        <a href="webcal://6nationscalendar.com/events.ics" className="ics">Subscribe to all event times in iOS, MacOS and Office</a>
         <small
           style={{
             display: `block`,
