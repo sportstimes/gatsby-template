@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
+import BuyMeButton from "./buy-me-button"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -36,6 +37,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
+          { BuyMeButton }
           <p id="Credits">© {new Date().getFullYear()}. Built with 💪 using <a href="https://github.com/sportstimes/gatsby-template/">The Sports Times</a> (<Link to="/about">Read More&hellip;</Link>). Developed by <a href="https://sijobling.com/">Si Jobling</a>. Hosted on <a href="https://netlify.com/">Netlify</a>.</p>
         </footer>
       </div>
