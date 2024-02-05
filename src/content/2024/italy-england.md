@@ -7,4 +7,9 @@ path: /2024/italy-england/
 tags: ["Italy", "England"]
 ---
 
-The second game of 6 Nations 2024 tournament, live on ITV.
+The second game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 ITV
+🇫🇷 France 2

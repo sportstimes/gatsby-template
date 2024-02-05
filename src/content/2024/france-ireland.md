@@ -7,4 +7,9 @@ path: /2024/france-ireland/
 tags: ["France", "Ireland"]
 ---
 
-The first game of 6 Nations 2024 tournament, live on ITV.
+The first game of 6 Nations 2024 tournament, 
+
+Watch live on:
+
+🇬🇧 ITV
+🇫🇷 France 2

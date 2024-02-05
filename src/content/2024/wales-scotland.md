@@ -7,4 +7,10 @@ path: /2024/wales-scotland/
 tags: ["Wales", "Scotland"]
 ---
 
-The third game of 6 Nations 2024 tournament, live on BBC Sport and S4C.
+The third game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 BBC
+🏴󠁧󠁢󠁷󠁬󠁳󠁿 S4C
+🇫🇷 France 2

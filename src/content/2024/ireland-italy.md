@@ -7,4 +7,9 @@ path: /2024/ireland-italy/
 tags: ["Ireland", "Italy"]
 ---
 
-The sixth game of 6 Nations 2024 tournament, live on ITV.
+The sixth game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 ITV
+🇫🇷 France 2

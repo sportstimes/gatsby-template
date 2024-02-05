@@ -7,4 +7,9 @@ path: /2024/scotland-france/
 tags: ["Scotland", "France"]
 ---
 
-The fourth game of 6 Nations 2024 tournament, live on BBC Sport.
+The fourth game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 BBC
+🇫🇷 France 2

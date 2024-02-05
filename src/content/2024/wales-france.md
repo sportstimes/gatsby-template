@@ -7,4 +7,10 @@ path: /2024/wales-france/
 tags: ["Wales", "France"]
 ---
 
-The twelfth game of 6 Nations 2024 tournament, live on BBC and S4C.
+The twelfth game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 BBC
+🏴󠁧󠁢󠁷󠁬󠁳󠁿 S4C
+🇫🇷 France 2

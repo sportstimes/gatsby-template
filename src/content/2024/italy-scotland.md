@@ -7,4 +7,9 @@ path: /2024/italy-scotland/
 tags: ["Italy", "Scotland"]
 ---
 
-The tenth game of 6 Nations 2024 tournament, live on ITV.
+The tenth game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 ITV
+🇫🇷 France 2
