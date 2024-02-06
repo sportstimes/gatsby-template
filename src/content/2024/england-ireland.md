@@ -11,5 +11,6 @@ The eleventh game of 6 Nations 2024 tournament.
 
 Watch live on:
 
-🇬🇧 ITV
-🇫🇷 France 2
+🇬🇧 ITV 
+🇫🇷 France 2 
+🇮🇹 DMAX 
