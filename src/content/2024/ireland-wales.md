@@ -7,4 +7,11 @@ path: /2024/ireland-wales/
 tags: ["Ireland", "Wales"]
 ---
 
-The seventh game of 6 Nations 2024 tournament, live on ITV and S4C.
+The seventh game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 ITV
+🏴󠁧󠁢󠁷󠁬󠁳󠁿 S4C
+🇫🇷 France 2
+🇮🇹 DMAX 

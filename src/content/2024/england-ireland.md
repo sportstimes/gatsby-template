@@ -7,4 +7,10 @@ path: /2024/england-ireland/
 tags: ["England", "Ireland"]
 ---
 
-The eleventh game of 6 Nations 2024 tournament, live on ITV.
+The eleventh game of 6 Nations 2024 tournament.
+
+Watch live on:
+
+🇬🇧 ITV 
+🇫🇷 France 2 
+🇮🇹 DMAX 
