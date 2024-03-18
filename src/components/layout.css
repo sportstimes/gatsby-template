@@ -248,8 +248,9 @@ h5 {
   padding: 0;
 }
 h1 {
-  margin-bottom: 1.45rem;
+  margin: 4rem;
   font-size: 2.25rem;
+  transform: skew(0deg, -12deg);
 }
 h1 a,
 h1 a:hover,
