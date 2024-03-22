@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <script src="https://cdn.usefathom.com/script.js" data-site="QGNYJOWN" defer></script>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
